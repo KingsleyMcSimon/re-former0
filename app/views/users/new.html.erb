@@ -1,4 +1,11 @@
-
+#  <form accept-charset="UTF-8" action="/users" method="post">
+#     <label for="user">Create New User:</label>
+#     <input id="user" name="user[name]" type="text" />
+#     <input id="user" name="user[email]" type="email" />
+#     <input id="user" name="user[password]" type="password" />
+#     <input name="commit" type="submit" value="Create User" />
+#     <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+#   </form>
 
 <%# <%= form_tag("/users", method: "post") do %> %>
     <%# <%= label_tag(:user, "Create New User:") %> %>
@@ -12,7 +19,7 @@
 
 <%= form_for @user do |f| %>
 <%= f.label 'username', 'Username:' %>
-  <%= f.text_field :username value = %><br />
+  <%= f.text_field :username %><br />
   <%= f.label 'email', 'Email:' %>
   <%= f.text_field :email %><br />
   <%= f.label 'password', 'Password:' %>
