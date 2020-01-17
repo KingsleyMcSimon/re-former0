@@ -45,7 +45,7 @@ Project in The Odin Project’s Ruby on Rails Curriculum. Find it at [theodinpro
 
 10. Fire up a rails server in another tab.
 
-11. Make sure everything works by visiting your [localhost]](http://localhost:3000/users/new) in the browser.
+11. Make sure everything works by visiting your [localhost](http://localhost:3000/users/new) in the browser.
 
 12. Get more about getting started with the project from the link to the [Odin Project](https://www.theodinproject.com/courses/ruby-on-rails/lessons/forms) below.
 
