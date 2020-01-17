@@ -29,7 +29,7 @@ Ruby On Rails.
 2. Go into the folder and create a new git repo there. Check in and commit the initial stuff.
 
 3. Modify your README file to say something you’ll remember later, like “This is part of the Forms 
-Project in The Odin Project’s Ruby on Rails Curriculum. Find it at http://www.theodinproject.com”
+Project in The Odin Project’s Ruby on Rails Curriculum. Find it at [theodinproject](http://www.theodinproject.com)
 
 4. Create and migrate a User model with :username, :email and :password.
 
@@ -45,7 +45,7 @@ Project in The Odin Project’s Ruby on Rails Curriculum. Find it at http://www.
 
 10. Fire up a rails server in another tab.
 
-11. Make sure everything works by visiting http://localhost:3000/users/new in the browser.
+11. Make sure everything works by visiting your [localhost]](http://localhost:3000/users/new) in the browser.
 
 12. Get more about getting started with the project from the link to the [Odin Project](https://www.theodinproject.com/courses/ruby-on-rails/lessons/forms) below.
 
