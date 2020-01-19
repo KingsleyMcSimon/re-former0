@@ -11,9 +11,9 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
 
   if @user.update_attributes(user_param)
-      redirect_to new_user_path
-    else
-    render :new
+    redirect_to new_user_path
+  else
+      render :new
   end
   end
 
