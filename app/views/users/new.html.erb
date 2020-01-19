@@ -1,15 +1,17 @@
-#  <form accept-charset="UTF-8" action="/users" method="post">
-#     <label for="user">Create New User:</label>
-#     <input id="user" name="user[name]" type="text" />
-#     <input id="user" name="user[email]" type="email" />
-#     <input id="user" name="user[password]" type="password" />
-#     <input name="commit" type="submit" value="Create User" />
+<%# #  <form accept-charset="UTF-8" action="/users" method="post">
+#     <label for="username">Username:</label>
+#     <input id="username" name="user[name]" type="text" />
+      <label for="email">Email:</label>
+#     <input id="email" name="user[email]" type="email" />
+      <label for="password">Password:</label>
+#     <input id="password" name="user[password]" type="password" />
+#     <input name="submit" type="submit" value="Submit" />
 #     <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
-#   </form>
+   <%# </form> %> %>
 
-<%# <%= form_tag("/users", method: "post") do %> %>
-    <%# <%= label_tag(:user, "Create New User:") %> %>
-    <%# <%= text_field_tag(:user) %> %>
+<%# <%= form_tag("/users_path", method: "post") do %> %>
+    <%# <%= label_tag(:username, "Create New User:") %> %>
+    <%# <%= text_field_tag(:username) %> %>
     <%# <%= label_tag(:email, "Email:") %>s %>
     <%# <%= text_field_tag(:email) %> %>
     <%# <%= label_tag(:password, "Password:") %> %>
