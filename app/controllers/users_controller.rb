@@ -13,7 +13,7 @@ class UsersController < ApplicationController
   if @user.update_attributes(user_param)
     redirect_to new_user_path
   else
-      render :new
+    render :new
   end
   end
 
